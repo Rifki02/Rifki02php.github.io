@@ -1,0 +1,121 @@
+*, html, body {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 17px;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    position: relative; 
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.judul {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkseagreen;
+}
+
+.navbar {
+    float: right;   
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background: rgba(88, 86, 86, 0.486);
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.gambar img {
+    width: 30%;
+    margin-top: 5em;
+    margin-left: 25px;
+    border-radius: 25%;
+}
+
+.gambar h1 {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 33em;
+    height: 1em;
+    position: relative;
+    border-radius: 25%;
+    margin-top: -270px;
+}
+
+.gambar p {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 70em;
+    height: 1em;
+    position: relative;
+    border-radius: 25%;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 7px 0;
+}
+
+footer p {
+    margin: 0;
+    margin-top: 1px;
+}

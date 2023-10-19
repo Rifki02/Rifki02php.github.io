@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+
+*,html,body {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: url('./download\ \(2\).jpeg'); */
+}
+
+.navbar li button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #162938;
+  transition: .5s;
+}
+
+
+
+.navbar li button:hover {
+  background: #fff;
+}
+
+/* .navbar .btnlogin-popup {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: .5s;
+}
+
+.navbar .btnregister-popup {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-right: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  transition: .5s;
+}
+
+.navbar .btnlogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+.navbar .btnregister-popup:hover {
+  background: #fff;
+  color: #162938;
+} */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.judul {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkseagreen;
+}
+
+.navbar {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(88, 86, 86, 0.486);
+  border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+section .gambar img {
+  width: 250px;
+  margin-top: 160px;
+  border-radius: 30%;
+}
+
+section .gambar2 img {
+  width: 270px;
+  margin-top: 160px;
+  border-radius: 30%;
+  margin-left: 30%;
+}
+section .gambar3 img {
+  width: 270px;
+  margin-top: 160px;
+  border-radius: 30%;
+  margin-left: 30%;
+}
+
+.gambar h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgba(3, 3, 3, 0.651);
+  width: 100%;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.gambar2 h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgba(3, 3, 3, 0.651);
+  width: 100%;
+  margin-top: 9px;
+  margin-left: 110px;
+}
+.gambar3 h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgba(3, 3, 3, 0.651);
+  width: 100%;
+  margin-top: 9px;
+  margin-left: 120px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 7px 0;
+}
+
+footer p {
+  margin: 0;
+  margin-top: 1px;
+}
