@@ -47,7 +47,7 @@
                                     <td> <?= $if["telephone"] ?> </td>
                                     <td> <?= $if["alamat"] ?> </td>
                                     <td> <?= $if["password"] ?> </td>
-                                    <td><img src="../Resource/<?php echo $mhs['foto']; ?>" alt="" height="100px"></td>
+                                    <td> <img style='display:block;' width='200px' height='200px'  src="Resource/<?= $if['gambar'] ?>"> </td>
                                     <td><a href="database/edit.php?id=<?=$if["id"];?>">Edit</a></td>
                                     <td><a href="database/delete.php?id=<?=$if["id"];?>">hapus</a>
                                 </td>
