@@ -57,7 +57,7 @@ if (isset($_POST['login'])) {
                         <input type="submit" value="Login" name="login">
                     </div>
                         <div class="regis_link">
-                        Tidak Punya Akun? <a href="regis.php">Register</a><br>
+                        Tidak Punya Akun? <a href="register.php">Register</a><br>
                         <a href="Register.php"></a>
                     </div>
                 </form>
